@@ -38,3 +38,16 @@
     width: 100%;
   }
  
+  h1{
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .container-imagens{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 110px 100px 110px;
+  }
