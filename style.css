@@ -12,6 +12,24 @@
     font-family: 'Open Sans', sans-serif;
   }
 
-  .container-logo{
-    
+  header{
+    display: flex;
+    justify-content: space-between;
   }
+
+  .container-logo{
+    margin: 10px 0px 10px 20px;
+
+  }
+
+  .menu-de-navegação li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--color-7-gray);
+    font-style: normal;
+    margin-right: 40px;
+    margin-top: 50px;
+    font-size: 17px;
+  }
+
+ 
