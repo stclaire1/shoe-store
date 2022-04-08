@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+:root{
+  --color-dark-pink: #C2185B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  footer{
+    width: 100%;
+    background-color: var(--color-dark-pink);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 140px 60px;
+  }
+  
+  footer p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+  footer .sobre {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer article h6{
+      font-size: 20px;
+      font-weight: 700;
+  }
+
+footer .categorias{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+footer .institucional{
+    margin-top: 50px;
+}
