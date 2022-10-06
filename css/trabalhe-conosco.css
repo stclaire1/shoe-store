@@ -86,18 +86,6 @@ main{
   margin-top: 10px;
 }
 
-/* .container-disponibilidade input[type="checkbox"]{
-  -webkit-appearance: none;
-  appearance: none;
-  width: 22px;
-  height: 22px;
-  border: 2px solid #ddd;
-  margin: calc(0.75em - 11px) 0.25rem 0 0;
-  vertical-align: top;
-  border-radius: 4px;
-  background: #fff no-repeat center center;
-} */
-
 .container-disponibilidade label{
   margin-right: 15px;
   font-family: 'Roboto', sans-serif;
