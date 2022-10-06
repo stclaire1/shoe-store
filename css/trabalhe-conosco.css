@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --color-7-gray: #777;
+  --color-dark-pink: #C2185B;
+  --color-blackish: #575757;
+  --color-gray: #9B9B9B;
+  --color-ligh-gray: #C4C4C4;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.frete{
+  background-color: #C2185B;
+  height: 65px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+main{
+  position: relative;
+  top: 20px;
+}
+
+#title{
+  margin-top: 30px;
+  font-weight: 600px;
+  color: var(--color-blackish);
+  font-size: 39px;
+  margin-left: 147px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.container{
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 150px;
+  padding-top: 5px;
+  margin-right: 100px;
+}
+
+.container-1{
+  margin-top: 10px;
+}
+
+.container-1 input{
+  width: 500px;
+}
+
+.container-1 label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container-departamentos{
+  margin-top: 20px;
+}
+
+.container-departamentos select{
+  width: 100%;
+}
+
+.container-departamentos label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container-disponibilidade{
+  margin-top: 20px;
+}
+
+.container-disponibilidade input{
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+/* .container-disponibilidade input[type="checkbox"]{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #ddd;
+  margin: calc(0.75em - 11px) 0.25rem 0 0;
+  vertical-align: top;
+  border-radius: 4px;
+  background: #fff no-repeat center center;
+} */
+
+.container-disponibilidade label{
+  margin-right: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container-contato{
+  margin-top: 20px;
+}
+
+.container-contato input{
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.container-contato label{
+  margin-right: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container-mensagem{
+  margin-top: 20px;
+}
+
+.container-mensagem textarea{
+  resize: none;
+}
+
+.container-mensagem label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container-curriculo{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container-curriculo label{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+button{
+  width: 100%;
+  margin-top: 15px;
+  height: 30px;
+  border: none;
+  background-color: var(--color-dark-pink);
+  font-family:'Roboto', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: #C2185B;
+  border: 0.1px solid #C4C4C4;
+  box-shadow: 0 1px 20px rgba(159, 159, 159);
+  mix-blend-mode: multiply;
+  transition: all .5s;
+}
+
+.container-info{
+  display: flex;
+  max-width: 1200px;
+  margin-bottom: 70px;
+}
+
+.container-info p{
+  font-weight: 400;
+  color: var(--color-blackish);
+  margin-top: 30px;
+  padding-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
